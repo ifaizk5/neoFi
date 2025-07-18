@@ -1,0 +1,772 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./css/main.min.css" rel="stylesheet" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <link href="styles.css" rel="stylesheet" />
+    <style>
+      .navbar {
+        background-color: transparent !important;
+      }
+    </style>
+    <title>Document</title>
+  </head>
+  <body class="bg-black">
+    <!-- Navbar Start -->
+    <nav class="navbar navbar-expand-md navbar-light py-3">
+      <div class="container px-3">
+        <!-- Brand -->
+        <a
+          class="navbar-brand d-flex align-items-center gap-2 text-white"
+          href="#"
+        >
+          <img src="/assets/logo.png" alt="Brand Logo" style="height: 30px" />
+          <span>NeoFi</span>
+        </a>
+
+        <!-- Toggler for mobile -->
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#mainNavbar"
+          aria-controls="mainNavbar"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon bg-light"></span>
+        </button>
+
+        <!-- Collapsible Content -->
+        <div
+          class="collapse navbar-collapse justify-content-between align-items-center mt-3 mt-md-0"
+          id="mainNavbar"
+        >
+          <!-- Center: Nav Links -->
+          <ul
+            class="navbar-nav mx-auto mb-2 mb-md-0 d-flex flex-column flex-md-row align-items-center gap-2 gap-md-4"
+          >
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#">Features</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#">Testimonials</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#">FAQ</a>
+            </li>
+            <!-- Mobile-only login -->
+            <li class="nav-item d-md-none">
+              <a class="nav-link text-white" href="#">Log in</a>
+            </li>
+          </ul>
+
+          <!-- Right: Auth Buttons (Desktop only) -->
+          <div class="d-none d-md-flex gap-2">
+            <button class="btn text-white">Log in</button>
+            <button class="btn btn-primary rounded-pill px-4 py-2">
+              Try for Free
+            </button>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <main class="container-fluid py-5">
+      <div
+        class="container-fluid align-items-center justify-content-center d-flex my-5"
+      >
+        <div
+          class="row align-items-center justify-content-center text-center text-md-start"
+        >
+          <!-- Text Section -->
+          <div
+            class="col-12 col-md-6 d-flex flex-column align-items-center align-items-md-start mb-4 mb-md-0"
+          >
+            <!-- Badge -->
+            <div
+              class="d-inline-flex border border-dark rounded-pill px-3 py-1 gap-2 align-items-center mb-4"
+            >
+              <p class="fs-1 text-primary mb-0">•</p>
+              <span class="text-primary">Decentralized</span>
+            </div>
+
+            <!-- Heading -->
+            <h1 class="fs-2 fs-md-1 text-white">
+              Revolutionizing Web3 Finance
+            </h1>
+
+            <!-- Lead Text -->
+            <p class="lead text-light w-100 w-md-75">
+              Secure, scalable, and decentralized solutions for your digital
+              assets—experience the future of financial freedom.
+            </p>
+
+            <!-- Buttons -->
+            <div
+              class="d-flex flex-wrap gap-3 mt-4 justify-content-center justify-content-md-start"
+            >
+              <button class="btn btn-primary rounded-pill px-4 py-3">
+                Get Started
+              </button>
+              <button
+                class="btn border border-light text-white rounded-pill px-4 py-3 d-flex align-items-center gap-2"
+              >
+                <span>▶</span>
+                <span>Watch Video</span>
+              </button>
+            </div>
+          </div>
+
+          <!-- Image Section -->
+          <div class="col-12 col-md-6 d-flex justify-content-center">
+            <img
+              class="img-fluid"
+              src="/assets/heropic.png"
+              alt="Hero Section Pic"
+            />
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <section class="container">
+      <div class="d-grid align-items-center justify-content-center text-light">
+        <h3 class="text-center">Satisfied Partners</h3>
+        <div
+          class="d-flex flex-wrap gap-5 my-4 align-items-center justify-content-center"
+        >
+          <div class="align-items-center m-2">
+            <img src="/assets/sponsorlogo.png" alt="sponsor logo" />
+            <span class="fw-bold">Logoipsum</span>
+          </div>
+          <div class="align-items-center m-2">
+            <img src="/assets/sponsorlogo.png" alt="sponsor logo" />
+            <span class="fw-bold">Logoipsum</span>
+          </div>
+          <div class="align-items-center m-2">
+            <img src="/assets/sponsorlogo.png" alt="sponsor logo" />
+            <span class="fw-bold">Logoipsum</span>
+          </div>
+          <div class="align-items-center m-2">
+            <img src="/assets/sponsorlogo.png" alt="sponsor logo" />
+            <span class="fw-bold">Logoipsum</span>
+          </div>
+          <div class="align-items-center m-2">
+            <img src="/assets/sponsorlogo.png" alt="sponsor logo" />
+            <span class="fw-bold">Logoipsum</span>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="container my-5">
+      <div class="row text-center justify-content-center mb-4">
+        <div class="col-auto">
+          <span class="border border-dark text-primary rounded-pill px-4 py-2">
+            Features
+          </span>
+        </div>
+      </div>
+      <div class="row text-center justify-content-center mb-4">
+        <div class="col-12 col-md-8">
+          <h1 class="fs-1 text-white">Future Breakdown</h1>
+          <p class="lead text-light">
+            Secure, scalable, and decentralized solutions for your digital
+            assets—experience the future of financial freedom.
+          </p>
+        </div>
+      </div>
+      <div class="row g-4">
+        <div class="col-12 col-md-4">
+          <div class="border border-dark p-4 rounded text-center p-5 h-100">
+            <img src="assets/scalability.png" class="img-fluid mb-3" />
+            <h2 class="h2 text-white">Scalability</h2>
+            <p class="lead text-light">Adapt and grow, no matter the demand.</p>
+          </div>
+        </div>
+        <div class="col-12 col-md-4">
+          <div class="border border-dark p-4 rounded text-center p-5 h-100">
+            <img src="assets/scalability.png" class="img-fluid mb-3" />
+            <h2 class="h2 text-white">Scalability</h2>
+            <p class="lead text-light">Adapt and grow, no matter the demand.</p>
+          </div>
+        </div>
+        <div class="col-12 col-md-4">
+          <div class="border border-dark p-4 rounded text-center p-5 h-100">
+            <img src="assets/scalability.png" class="img-fluid mb-3" />
+            <h2 class="h2 text-white">Scalability</h2>
+            <p class="lead text-light">Adapt and grow, no matter the demand.</p>
+          </div>
+        </div>
+        <!-- Repeat for other features -->
+      </div>
+    </section>
+    <section class="container my-5">
+      <div class="row text-center justify-content-center mb-4">
+        <div class="col-auto">
+          <span class="border border-dark text-primary rounded-pill px-4 py-2">
+            Statistics
+          </span>
+        </div>
+      </div>
+      <div class="row text-center justify-content-center mb-4">
+        <div class="col-12 col-md-8">
+          <h1 class="fs-1 text-white">Completely Leverage Product</h1>
+          <p class="lead text-light">
+            Leading the way in blockchain innovation, we are redefining how the
+            world connects, secures, and transacts, bringing a new era of
+            decentralized technology.
+          </p>
+        </div>
+      </div>
+      <div
+        class="d-flex align-items-center justify-content-center gap-5 flex-column flex-md-row"
+      >
+        <div class="p-4 rounded text-center h-100">
+          <h2 class="h2 text-primary">2M+</h2>
+          <p class="lead text-light">users</p>
+        </div>
+
+        <div class="p-4 rounded text-center h-100">
+          <h2 class="h2 text-primary">500k+</h2>
+          <p class="lead text-light">Transactions</p>
+        </div>
+
+        <div class="p-4 rounded text-center h-100">
+          <h2 class="h2 text-primary">35+</h2>
+          <p class="lead text-light">Countries</p>
+        </div>
+      </div>
+    </section>
+    <section class="container my-5">
+      <div class="row text-center justify-content-center mb-4">
+        <div class="col-auto">
+          <span class="border border-dark text-primary rounded-pill px-4 py-2">
+            Statistics
+          </span>
+        </div>
+      </div>
+      <div class="row text-center justify-content-center mb-4">
+        <div class="col-12 col-md-8">
+          <h1 class="fs-1 text-white">The Future Of Blockchain Technology</h1>
+          <p class="lead text-light">
+            Leading the way in blockchain innovation, we are redefining how the
+            world connects, secures, and transacts, bringing a new era of
+            decentralized technology.
+          </p>
+        </div>
+      </div>
+    </section>
+    <section class="container-fluid my-5">
+      <div
+        class="row justify-content-center align-items-center text-center text-md-start"
+      >
+        <div class="col-12 col-md-4 mb-4 mb-md-0 d-flex justify-content-center">
+          <img
+            src="/assets/Shape-1.1.png"
+            alt="feature section image"
+            class="img-fluid"
+          />
+        </div>
+
+        <div
+          class="col-12 col-md-6 d-flex flex-column align-items-center align-items-md-start"
+        >
+          <!-- Card 1 -->
+          <div
+            class="d-flex flex-column flex-sm-row align-items-center align-items-sm-start border border-dark rounded px-3 py-4 gap-3 my-3 w-100"
+            style="max-width: 100%"
+          >
+            <img
+              src="/assets/hugeicons_flow-connection.png"
+              class="img-fluid"
+              alt="Flow connection icon"
+              style="max-width: 60px"
+            />
+            <div class="flex-grow-1 text-center text-sm-start">
+              <h3 class="fs-3 text-white">Connectivity and Ubiquity</h3>
+              <p class="fs-5 text-light my-3">
+                The focal points of Web 3.0 emphasize connectivity and ubiquity,
+                ensuring seamless interactions between users and devices within.
+              </p>
+            </div>
+          </div>
+          <div
+            class="d-flex flex-column flex-sm-row align-items-center align-items-sm-start border border-dark rounded px-3 py-4 gap-3 my-3 w-100"
+            style="max-width: 100%"
+          >
+            <img
+              src="/assets/hugeicons_flow-connection.png"
+              class="img-fluid"
+              alt="Flow connection icon"
+              style="max-width: 60px"
+            />
+            <div class="flex-grow-1 text-center text-sm-start">
+              <h3 class="fs-3 text-white">Connectivity and Ubiquity</h3>
+              <p class="fs-5 text-light my-3">
+                The focal points of Web 3.0 emphasize connectivity and ubiquity,
+                ensuring seamless interactions between users and devices within.
+              </p>
+            </div>
+          </div>
+          <div
+            class="d-flex flex-column flex-sm-row align-items-center align-items-sm-start border border-dark rounded px-3 py-4 gap-3 my-3 w-100"
+            style="max-width: 100%"
+          >
+            <img
+              src="/assets/hugeicons_flow-connection.png"
+              class="img-fluid"
+              alt="Flow connection icon"
+              style="max-width: 60px"
+            />
+            <div class="flex-grow-1 text-center text-sm-start">
+              <h3 class="fs-3 text-white">Connectivity and Ubiquity</h3>
+              <p class="fs-5 text-light my-3">
+                The focal points of Web 3.0 emphasize connectivity and ubiquity,
+                ensuring seamless interactions between users and devices within.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section
+      class="d-flex flex-column justify-content-center align-items-center my-5 overflow-hidden"
+    >
+      <div class="row text-center justify-content-center mb-4 container">
+        <div class="col-auto">
+          <span class="border border-dark text-primary rounded-pill px-4 py-2">
+            Statistics
+          </span>
+        </div>
+      </div>
+      <div class="row text-center justify-content-center mb-4 container">
+        <div class="col-12 col-md-8">
+          <h1 class="fs-1 text-white">The Future Of Blockchain Technology</h1>
+          <p class="lead text-light">
+            Leading the way in blockchain innovation, we are redefining how the
+            world connects, secures, and transacts, bringing a new era of
+            decentralized technology.
+          </p>
+        </div>
+      </div>
+      <div class="overflow-hidden bg-black my-3">
+        <div class="container-fluid">
+          <div
+            class="row flex-nowrap scrolling-wrapper scroll-track-left gap-4 my-3"
+          >
+            <!-- One testimonial -->
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3 testimonial-card">
+              <img
+                src="/assets/hugeicons_flow-connection.png"
+                alt="Flow"
+                class="img-fluid mb-2"
+              />
+              <div>
+                <h3 class="fs-3 text-white">Connectivity and Ubiquity</h3>
+                <p class="fs-5 text-light my-3">
+                  The focal points of Web 3.0 emphasize connectivity and
+                  ubiquity, ensuring seamless interactions between users and
+                  devices within.
+                </p>
+              </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3 testimonial-card">
+              <img
+                src="/assets/hugeicons_flow-connection.png"
+                alt="Flow"
+                class="img-fluid mb-2"
+              />
+              <div>
+                <h3 class="fs-3 text-white">Connectivity and Ubiquity</h3>
+                <p class="fs-5 text-light my-3">
+                  The focal points of Web 3.0 emphasize connectivity and
+                  ubiquity, ensuring seamless interactions between users and
+                  devices within.
+                </p>
+              </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3 testimonial-card">
+              <img
+                src="/assets/hugeicons_flow-connection.png"
+                alt="Flow"
+                class="img-fluid mb-2"
+              />
+              <div>
+                <h3 class="fs-3 text-white">Connectivity and Ubiquity</h3>
+                <p class="fs-5 text-light my-3">
+                  The focal points of Web 3.0 emphasize connectivity and
+                  ubiquity, ensuring seamless interactions between users and
+                  devices within.
+                </p>
+              </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3 testimonial-card">
+              <img
+                src="/assets/hugeicons_flow-connection.png"
+                alt="Flow"
+                class="img-fluid mb-2"
+              />
+              <div>
+                <h3 class="fs-3 text-white">Connectivity and Ubiquity</h3>
+                <p class="fs-5 text-light my-3">
+                  The focal points of Web 3.0 emphasize connectivity and
+                  ubiquity, ensuring seamless interactions between users and
+                  devices within.
+                </p>
+              </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3 testimonial-card">
+              <img
+                src="/assets/hugeicons_flow-connection.png"
+                alt="Flow"
+                class="img-fluid mb-2"
+              />
+              <div>
+                <h3 class="fs-3 text-white">Connectivity and Ubiquity</h3>
+                <p class="fs-5 text-light my-3">
+                  The focal points of Web 3.0 emphasize connectivity and
+                  ubiquity, ensuring seamless interactions between users and
+                  devices within.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="row flex-nowrap scrolling-wrapper scroll-track-right gap-4 my-3"
+          >
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3 testimonial-card">
+              <img
+                src="/assets/hugeicons_flow-connection.png"
+                alt="Flow"
+                class="img-fluid mb-2"
+              />
+              <div>
+                <h3 class="fs-3 text-white">Connectivity and Ubiquity</h3>
+                <p class="fs-5 text-light my-3">
+                  The focal points of Web 3.0 emphasize connectivity and
+                  ubiquity, ensuring seamless interactions between users and
+                  devices within.
+                </p>
+              </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3 testimonial-card">
+              <img
+                src="/assets/hugeicons_flow-connection.png"
+                alt="Flow"
+                class="img-fluid mb-2"
+              />
+              <div>
+                <h3 class="fs-3 text-white">Connectivity and Ubiquity</h3>
+                <p class="fs-5 text-light my-3">
+                  The focal points of Web 3.0 emphasize connectivity and
+                  ubiquity, ensuring seamless interactions between users and
+                  devices within.
+                </p>
+              </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3 testimonial-card">
+              <img
+                src="/assets/hugeicons_flow-connection.png"
+                alt="Flow"
+                class="img-fluid mb-2"
+              />
+              <div>
+                <h3 class="fs-3 text-white">Connectivity and Ubiquity</h3>
+                <p class="fs-5 text-light my-3">
+                  The focal points of Web 3.0 emphasize connectivity and
+                  ubiquity, ensuring seamless interactions between users and
+                  devices within.
+                </p>
+              </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3 testimonial-card">
+              <img
+                src="/assets/hugeicons_flow-connection.png"
+                alt="Flow"
+                class="img-fluid mb-2"
+              />
+              <div>
+                <h3 class="fs-3 text-white">Connectivity and Ubiquity</h3>
+                <p class="fs-5 text-light my-3">
+                  The focal points of Web 3.0 emphasize connectivity and
+                  ubiquity, ensuring seamless interactions between users and
+                  devices within.
+                </p>
+              </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3 testimonial-card">
+              <img
+                src="/assets/hugeicons_flow-connection.png"
+                alt="Flow"
+                class="img-fluid mb-2"
+              />
+              <div>
+                <h3 class="fs-3 text-white">Connectivity and Ubiquity</h3>
+                <p class="fs-5 text-light my-3">
+                  The focal points of Web 3.0 emphasize connectivity and
+                  ubiquity, ensuring seamless interactions between users and
+                  devices within.
+                </p>
+              </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3 testimonial-card">
+              <img
+                src="/assets/hugeicons_flow-connection.png"
+                alt="Flow"
+                class="img-fluid mb-2"
+              />
+              <div>
+                <h3 class="fs-3 text-white">Connectivity and Ubiquity</h3>
+                <p class="fs-5 text-light my-3">
+                  The focal points of Web 3.0 emphasize connectivity and
+                  ubiquity, ensuring seamless interactions between users and
+                  devices within.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="container">
+      <div class="row text-center justify-content-center mb-4">
+        <div class="col-auto">
+          <span class="border border-dark text-primary rounded-pill px-4 py-2">
+            FAQ
+          </span>
+        </div>
+      </div>
+      <div class="row text-center justify-content-center mb-4">
+        <div class="col-12 col-md-8">
+          <h1 class="fs-1 text-white">Get Answers to common questions</h1>
+          <p class="lead text-light">
+            From basics to advanced topics, find everything you need to know
+            right here. Let us help you simplify the process and find the
+            clarity you're looking
+          </p>
+        </div>
+      </div>
+      <div class="accordion bg-black" id="faqAccordion">
+        <div class="accordion-item my-4 bg-black border border-dark text-white">
+          <h2 class="accordion-header">
+            <button
+              class="accordion-button collapsed bg-black text-white"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#faq1"
+            >
+              What is NexoFi, and how does it work?
+            </button>
+          </h2>
+          <div
+            id="faq1"
+            class="accordion-collapse collapse"
+            data-bs-parent="#faqAccordion"
+          >
+            <div class="accordion-body text-light">
+              NexoFi is a platform that...
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item my-4 bg-black border border-dark text-white">
+          <h2 class="accordion-header">
+            <button
+              class="accordion-button collapsed bg-black text-white"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#faq1"
+            >
+              What is NexoFi, and how does it work?
+            </button>
+          </h2>
+          <div
+            id="faq1"
+            class="accordion-collapse collapse"
+            data-bs-parent="#faqAccordion"
+          >
+            <div class="accordion-body text-light">
+              NexoFi is a platform that...
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item my-4 bg-black border border-dark text-white">
+          <h2 class="accordion-header">
+            <button
+              class="accordion-button collapsed bg-black text-white"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#faq1"
+            >
+              What is NexoFi, and how does it work?
+            </button>
+          </h2>
+          <div
+            id="faq1"
+            class="accordion-collapse collapse"
+            data-bs-parent="#faqAccordion"
+          >
+            <div class="accordion-body text-light">
+              NexoFi is a platform that...
+            </div>
+          </div>
+        </div>
+
+        <div class="accordion-item my-4 bg-black border border-dark text-white">
+          <h2 class="accordion-header">
+            <button
+              class="accordion-button collapsed bg-black text-white"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#faq2"
+            >
+              How is blockchain related to cryptocurrency?
+            </button>
+          </h2>
+          <div
+            id="faq2"
+            class="accordion-collapse collapse"
+            data-bs-parent="#faqAccordion"
+          >
+            <div class="accordion-body text-light">
+              Blockchain is the underlying technology...
+            </div>
+          </div>
+        </div>
+
+        <div class="accordion-item my-4 bg-black border border-dark text-white">
+          <h2 class="accordion-header">
+            <button
+              class="accordion-button collapsed bg-black text-white"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#faq3"
+            >
+              Is Blockchain technology secure?
+            </button>
+          </h2>
+          <div
+            id="faq3"
+            class="accordion-collapse collapse"
+            data-bs-parent="#faqAccordion"
+          >
+            <div class="accordion-body text-light">
+              Yes, blockchain uses cryptography...
+            </div>
+          </div>
+        </div>
+
+        <!-- Add more items below the same way -->
+      </div>
+    </section>
+    <section class="container my-5">
+      <div class="row text-center justify-content-center mb-4">
+        <div class="col-auto">
+          <span class="border border-dark text-primary rounded-pill px-4 py-2">
+            Revolutionary
+          </span>
+        </div>
+      </div>
+      <div class="row text-center justify-content-center mb-4">
+        <div class="col-12 col-md-8">
+          <h1 class="fs-1 text-white">
+            Enhance Your Design Workflow with Seamless Landing Pages
+          </h1>
+          <p class="lead text-light">
+            Join a thriving community committed to safeguarding digital assets,
+            empowering your financial journey with trust, innovation, and
+            security
+          </p>
+          <button class="btn btn-primary py-3 px-4 rounded-0">
+            Get Started
+          </button>
+        </div>
+      </div>
+    </section>
+    <footer class="bg-black text-light py-5">
+      <div class="container">
+        <!-- Brand Row -->
+        <div class="row mb-4">
+          <div class="col-12 d-flex align-items-center gap-2">
+            <a
+              class="navbar-brand d-flex align-items-center gap-2 text-white fs-1"
+              href="#"
+            >
+              <img
+                src="/assets/logo.png"
+                alt="Brand Logo"
+                style="height: 30px"
+              />
+              <span>NeoFi</span>
+            </a>
+          </div>
+        </div>
+
+        <!-- Links Section -->
+        <div class="row text-center text-lg-start gy-4">
+          <!-- Quick Links -->
+          <div class="col-12 col-md-6 col-lg-3">
+            <h5 class="fw-bold text-white mb-3">Quick Links</h5>
+            <p class="mb-1">About</p>
+            <p class="mb-1">Our Products</p>
+            <p class="mb-1">Become a partner</p>
+          </div>
+
+          <!-- Help -->
+          <div class="col-12 col-md-6 col-lg-3">
+            <h5 class="fw-bold text-white mb-3">Help</h5>
+            <p class="mb-1">Blogs</p>
+            <p class="mb-1">Press Release</p>
+            <p class="mb-1">Privacy and Policy</p>
+          </div>
+
+          <!-- Social Media -->
+          <div class="col-12 col-md-6 col-lg-3">
+            <h5 class="fw-bold text-white mb-3">Social Media</h5>
+            <p class="mb-1">Facebook</p>
+            <p class="mb-1">Instagram</p>
+            <p class="mb-1">TikTok</p>
+          </div>
+
+          <!-- Mailing List -->
+          <div class="col-12 col-md-6 col-lg-3">
+            <h5 class="fw-bold text-white mb-3">Join our mailing list</h5>
+            <div
+              class="d-flex justify-content-between align-items-center border-bottom pb-2"
+            >
+              <span class="text-light">Your email address</span>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="32"
+                height="32"
+                fill="#9dff3a"
+                class="bi bi-arrow-right-circle-fill"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0M4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5z"
+                />
+              </svg>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

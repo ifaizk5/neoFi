@@ -1,0 +1,51 @@
+* {
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
+}
+
+.overflow-hidden {
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+}
+
+.scroll-track-left {
+  display: flex;
+  width: fit-content;
+  animation: scroll-left 20s linear infinite;
+  gap: 1.5rem;
+}
+
+@keyframes scroll-left {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+.scroll-track-right {
+  display: flex;
+  width: fit-content;
+  animation: scroll-right 20s linear infinite;
+  gap: 1.5rem;
+}
+
+@keyframes scroll-right {
+  0% {
+    transform: translateX(-50%);
+  }
+  100% {
+    transform: translateX(0%);
+  }
+}
+
+.testimonial-card {
+  flex-shrink: 0;
+  min-width: 300px;
+  background-color: #1c1c1c;
+  color: white;
+  padding: 1.5rem;
+  border-radius: 1rem;
+  text-align: center;
+}
